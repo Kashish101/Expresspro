@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <!-- Latest compiled and minified CSS -->
+    {{>links}}
+  </head>
+  <body>
+
+   {{>navbar}}
+
+    <!--Main-header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+                    
+                    <div class="col-md-6 col-12 main_header_right">
+                        <figure>
+                            <img src="images/kashish.jpg" alt="kashish" height="300px">
+                        </figure>
+                    </div>
+                    <!--right side div-->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome!!</p>
+                        <h1>I am a <span>Full Stack Developer</span> </h1>
+                        <a href="/about"><button>Hire me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer code-->
+    {{>footer}}
+  </body>
+</html>
